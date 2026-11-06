@@ -59,7 +59,7 @@ FastQC is designed for sequencing reads, not assembled FASTA, so base-compositio
 | Ambiguous bases (N) | 0 |
 | Gaps | 0 |
 
-The variant genome contains 51 ambiguous bases (N or IUPAC codes), which matters for downstream calling (see Notes).
+The variant genome contains 51 ambiguous bases (N or IUPAC codes), which matters for downstream calling. ![Galaxy QC](screenshots/galaxy_fasta_stats.jpg).
 
 ### 2. BLASTN (Galaxy, NCBI BLAST+ 2.16.0+)
 
@@ -74,7 +74,7 @@ The reference spike was used as the query against the variant genome as a one-se
 | Strand | Plus/Plus |
 | Subject range | 21529-25341 |
 
-The ~98% identity and 27 gap positions are what a heavily mutated Omicron spike looks like. The subject region is 9 nt shorter than the reference spike, which fits the net effect of the deletions and insertion reported below.
+The ~98% identity and 27 gap positions are what a heavily mutated Omicron spike looks like. The subject region is 9 nt shorter than the reference spike, which fits the net effect of the deletions and insertion reported below.![BLAST alignment](screenshots/blast_alignment.jpg)
 
 ### 3. Spike mutation caller (`spike_mutation_caller.py`)
 
@@ -171,8 +171,8 @@ covid-blast-analysis/
 │   ├── spike_mutations_long.tsv
 │   └── spike_mutations_summary.tsv
 └── screenshots/
-    ├── galaxy_fasta_stats.png
-    └── blast_alignment.png
+    ├── galaxy_fasta_stats.jpg
+    └── blast_alignment.jpg
 ```
 
 ## Roadmap
