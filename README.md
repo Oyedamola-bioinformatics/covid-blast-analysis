@@ -1,5 +1,3 @@
-# covid-blast-analysis-
-SARS-CoV-2 spike mutation profiling with BLAST and a validated Python caller
 # SARS-CoV-2 Spike Mutation Profiling: BLAST + a Validated Mutation Caller
 
 Identify what a SARS-CoV-2 genome is, find every amino acid change in its spike protein relative to the Wuhan-Hu-1 reference, and check the result against an independent method.
@@ -149,7 +147,7 @@ Other changes worth noting: `K417N`, `E484A` and `Q493R` fall in antibody-target
 **Colab or local**
 
 ```bash
-git clone https://github.com/<Oyedamola-bioinfomatics>/covid-blast-analysis.git
+git clone https://github.com/Oyedamola-bioinfomatics/covid-blast-analysis.git
 cd covid-blast-analysis
 pip install biopython pandas
 python spike_mutation_caller.py -r data/NC_045512.2.fasta -q data/sample_omicron.fasta -o results/
@@ -204,4 +202,4 @@ NCBI Nucleotide and NCBI Virus (data), Galaxy (Fasta Statistics, BLAST+ 2.16.0+)
 
 ## Author
 
-[Oyelakin Damola Ayomide] | Bioinformatics | [https://www.linkedin.com/in/oyelakin-damola-ayomide]
+Oyelakin Damola Ayomide | Bioinformatics | [https://www.linkedin.com/in/oyelakin-damola-ayomide]
