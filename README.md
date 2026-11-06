@@ -149,7 +149,7 @@ Other changes worth noting: `K417N`, `E484A` and `Q493R` fall in antibody-target
 **Colab or local**
 
 ```bash
-git clone https://github.com/<your-username>/covid-blast-analysis.git
+git clone https://github.com/<Oyedamola-bioinfomatics>/covid-blast-analysis.git
 cd covid-blast-analysis
 pip install biopython pandas
 python spike_mutation_caller.py -r data/NC_045512.2.fasta -q data/sample_omicron.fasta -o results/
